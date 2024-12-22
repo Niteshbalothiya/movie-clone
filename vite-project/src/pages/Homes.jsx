@@ -1,10 +1,13 @@
 import React from 'react'
 
-  export const Home = () => {
+ export const Homes = () => {
   return (
     <>
-      jkfhjdhjvjc 
+      jkasxsjM
     </>
   )
 }
+
+
+
 

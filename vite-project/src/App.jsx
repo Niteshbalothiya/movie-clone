@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { BrowserRouter as Router, Routes,Route } from 'react-router-dom'
-import {Home} from './pages/Home'
+import { Homes } from './pages/Homes'
 import Headers from './components/Header'
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
     <Router>
       <Headers/>
       <Routes>
-        <Route  index element = {<Home></Home>}></Route>
+        <Route  index element = {<h1>hello</h1>}></Route>
         <Route path='movie/:id'element = {<h1>Movice list page</h1>}></Route>
         <Route path='movie/:type'element = {<h1>Movice list page</h1>}></Route>
         <Route path='/*'element = {<h1> Movice list page</h1>}></Route>
