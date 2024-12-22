@@ -25,10 +25,10 @@ const Header =() =>{
   <div className="hidden md:flex md:items-center md:w-auto w-full" id="menu">
     <nav>
       <ul className="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
-        <Link to="/movies/popular" className="md:p-4 py-3 px-0 block"><a>Popular</a></Link>
-        <Link to="/movies/top-rated" className="md:p-4 py-3 px-0 block"><a>Top Rated</a></Link>
-        <Link to="/movies/upcoming" className="md:p-4 py-3 px-0 block"><a></a>Upcoming</Link>
-       
+      <Link to="/movies/popular" className="md:p-4 py-3 px-0 block">Popular</Link>
+       <Link to="/movies/top-rated" className="md:p-4 py-3 px-0 block">Top Rated</Link>
+    <Link to="/movies/upcoming" className="md:p-4 py-3 px-0 block">Upcoming</Link>
+
       </ul>
     </nav>
   </div>
